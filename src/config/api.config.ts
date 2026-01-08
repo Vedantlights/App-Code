@@ -68,6 +68,13 @@ export const API_ENDPOINTS = {
   INQUIRY_SENT: '/inquiries/sent.php',
   INQUIRY_MARK_READ: '/inquiries/mark-read.php',
   
+  // Seller Dashboard
+  SELLER_DASHBOARD_STATS: '/seller/dashboard/stats.php',
+  SELLER_PROPERTIES_LIST: '/seller/properties/list.php',
+  SELLER_INQUIRIES_LIST: '/seller/inquiries/list.php',
+  SELLER_PROFILE_GET: '/seller/profile/get.php',
+  SELLER_INQUIRY_UPDATE_STATUS: '/seller/inquiries/updateStatus.php',
+  
   // Others
   CITIES_LIST: '/cities/list.php',
   PROPERTY_TYPES: '/property-types/list.php',
@@ -87,11 +94,13 @@ export const API_ENDPOINTS = {
   CHAT_MESSAGES: '/chat/messages.php',
   CHAT_SEND_MESSAGE: '/chat/send-message.php',
   
-  // Moderation (Google Vision)
-  MODERATION_CHECK_IMAGE: '/moderation/check-image.php',
-  MODERATION_PENDING_IMAGES: '/moderation/pending-images.php',
-  MODERATION_UPDATE_STATUS: '/moderation/update-status.php',
-  MODERATION_UPLOAD: '/images/moderate-and-upload.php',
+  // Image Moderation (Google Vision API)
+  MODERATE_AND_UPLOAD: '/images/moderate-and-upload.php',
+  
+  // Admin Moderation Queue
+  ADMIN_MODERATION_QUEUE: '/admin/moderation-queue/list.php',
+  ADMIN_MODERATION_APPROVE: '/admin/moderation-queue/approve.php',
+  ADMIN_MODERATION_REJECT: '/admin/moderation-queue/reject.php',
   
   // Inquiry Reply
   INQUIRY_REPLY: '/inquiries/reply.php',
