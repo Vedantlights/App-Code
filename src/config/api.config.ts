@@ -1,3 +1,16 @@
+/**
+ * API Configuration
+ * 
+ * For React Native, environment variables can be used with react-native-config.
+ * Install: npm install react-native-config
+ * Then use: import Config from 'react-native-config';
+ * 
+ * For now, production values are hardcoded. Update these for different environments.
+ * 
+ * Production values:
+ * - API_BASE_URL: https://demo1.indiapropertys.com/backend/api
+ * - UPLOAD_BASE_URL: https://demo1.indiapropertys.com/backend/uploads
+ */
 export const API_CONFIG = {
   BASE_URL: 'https://demo1.indiapropertys.com/backend',
   API_BASE_URL: 'https://demo1.indiapropertys.com/backend/api',
@@ -15,6 +28,9 @@ export const API_ENDPOINTS = {
   RESEND_OTP: '/auth/resend-otp.php',
   FORGOT_PASSWORD: '/auth/forgot-password.php',
   RESET_PASSWORD: '/auth/reset-password.php',
+  REFRESH_TOKEN: '/auth/refresh-token.php', // Not implemented in backend yet
+  VERIFY_EMAIL: '/auth/verify-email.php', // Email verification token endpoint
+  DELETE_ACCOUNT: '/auth/delete-account.php', // User self-delete (not implemented in backend yet)
   
   // OTP (MSG91)
   OTP_SEND_SMS: '/otp/send-sms.php',
@@ -79,6 +95,12 @@ export const API_ENDPOINTS = {
   
   // Inquiry Reply
   INQUIRY_REPLY: '/inquiries/reply.php',
+  
+  // Notifications (if implemented in backend)
+  NOTIFICATIONS_LIST: '/notifications/list.php',
+  NOTIFICATIONS_MARK_READ: '/notifications/mark-read.php',
+  NOTIFICATIONS_DELETE: '/notifications/delete.php',
+  NOTIFICATIONS_REGISTER_DEVICE: '/notifications/register-device.php',
 };
 
 export const apiConfig = {
