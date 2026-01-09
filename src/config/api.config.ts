@@ -62,6 +62,17 @@ export const API_ENDPOINTS = {
   FAVORITE_REMOVE: '/favorites/remove.php',
   FAVORITE_CHECK: '/favorites/check.php',
   
+  // Buyer Dashboard
+  BUYER_PROPERTIES_LIST: '/buyer/properties/list.php',
+  BUYER_PROPERTY_DETAILS: '/buyer/properties/details.php',
+  BUYER_FAVORITES_LIST: '/buyer/favorites/list.php',
+  BUYER_FAVORITES_TOGGLE: '/buyer/favorites/toggle.php',
+  BUYER_INQUIRY_SEND: '/buyer/inquiries/send.php',
+  BUYER_PROFILE_GET: '/buyer/profile/get.php',
+  BUYER_PROFILE_UPDATE: '/buyer/profile/update.php',
+  BUYER_INTERACTION_RECORD: '/buyer/interactions/record.php',
+  BUYER_INTERACTION_CHECK: '/buyer/interactions/check.php',
+  
   // Inquiries
   INQUIRY_SEND: '/inquiries/send.php',
   INQUIRY_INBOX: '/inquiries/inbox.php',
