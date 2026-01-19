@@ -17,8 +17,8 @@ export const MAPBOX_ACCESS_TOKEN = API_CONFIG.MAPBOX_TOKEN || 'pk.eyJ1Ijoic3VkaG
 
 // Default map settings
 export const MAP_CONFIG = {
-  // Default center (India)
-  DEFAULT_CENTER: [77.2090, 28.6139] as [number, number], // Delhi coordinates
+  // Default center (Pune, India)
+  DEFAULT_CENTER: [73.8567, 18.5204] as [number, number], // Pune coordinates [longitude, latitude]
   DEFAULT_ZOOM: 10,
   
   // Map style
