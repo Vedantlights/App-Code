@@ -83,8 +83,11 @@ export const API_ENDPOINTS = {
   SELLER_DASHBOARD_STATS: '/seller/dashboard/stats.php',
   SELLER_PROPERTIES_LIST: '/seller/properties/list.php',
   SELLER_PROPERTIES_ADD: '/seller/properties/add.php', // Add property endpoint (from guide)
+  SELLER_PROPERTIES_UPDATE: '/seller/properties/update.php',
+  SELLER_PROPERTIES_DELETE: '/seller/properties/delete.php',
   SELLER_INQUIRIES_LIST: '/seller/inquiries/list.php',
   SELLER_PROFILE_GET: '/seller/profile/get.php',
+  SELLER_PROFILE_UPDATE: '/seller/profile/update.php',
   SELLER_INQUIRY_UPDATE_STATUS: '/seller/inquiries/updateStatus.php',
   
   // Others
