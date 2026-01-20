@@ -109,8 +109,10 @@ export const API_ENDPOINTS = {
   CHAT_MESSAGES: '/chat/messages.php',
   CHAT_SEND_MESSAGE: '/chat/send-message.php',
   
-  // Image Moderation (Google Vision API)
+  // Image Moderation (Google Vision API) — getCurrentUser(); backend checks property.user_id
   MODERATE_AND_UPLOAD: '/images/moderate-and-upload.php',
+  // Video / property files — requireUserType(['seller','agent'])
+  UPLOAD_PROPERTY_FILES: '/upload/property-files.php',
   
   // Admin Moderation Queue
   ADMIN_MODERATION_QUEUE: '/admin/moderation-queue/list.php',
