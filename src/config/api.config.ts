@@ -38,6 +38,8 @@ export const API_ENDPOINTS = {
   OTP_SEND_EMAIL: '/otp/send-email.php',
   OTP_VERIFY_EMAIL: '/otp/verify-email.php',
   OTP_RESEND_SMS: '/otp/resend-sms.php',
+  // MSG91 audit (SDK verification success → notify backend)
+  OTP_VERIFY_MSG91_TOKEN: '/otp/verify-msg91-token.php',
   
   // User
   USER_PROFILE: '/user/profile.php',
