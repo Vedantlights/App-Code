@@ -86,6 +86,7 @@ export const API_ENDPOINTS = {
   SELLER_PROPERTIES_UPDATE: '/seller/properties/update.php',
   SELLER_PROPERTIES_DELETE: '/seller/properties/delete.php',
   SELLER_INQUIRIES_LIST: '/seller/inquiries/list.php',
+  SELLER_BUYERS_GET: '/seller/buyers/get.php', // Get buyer info by ID
   SELLER_PROFILE_GET: '/seller/profile/get.php',
   SELLER_PROFILE_UPDATE: '/seller/profile/update.php',
   SELLER_INQUIRY_UPDATE_STATUS: '/seller/inquiries/updateStatus.php',
